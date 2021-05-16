@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alsm_\\Documents\\All Projects\\Visual Studio 2019\\repos\\TuristickaAgencija\\TuristickaAgencija\\TuristickaAgencija.csproj",
+      "projectUniqueName": "C:\\Users\\alsm_\\Source\\Repos\\Grupa1-Hurmadzik\\TuristickaAgencija\\TuristickaAgencija\\TuristickaAgencija.csproj",
       "projectName": "TuristickaAgencija",
-      "projectPath": "C:\\Users\\alsm_\\Documents\\All Projects\\Visual Studio 2019\\repos\\TuristickaAgencija\\TuristickaAgencija\\TuristickaAgencija.csproj",
+      "projectPath": "C:\\Users\\alsm_\\Source\\Repos\\Grupa1-Hurmadzik\\TuristickaAgencija\\TuristickaAgencija\\TuristickaAgencija.csproj",
       "packagesPath": "C:\\Users\\alsm_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alsm_\\Documents\\All Projects\\Visual Studio 2019\\repos\\TuristickaAgencija\\TuristickaAgencija\\obj\\",
+      "outputPath": "C:\\Users\\alsm_\\Source\\Repos\\Grupa1-Hurmadzik\\TuristickaAgencija\\TuristickaAgencija\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alsm_\\AppData\\Roaming\\NuGet\\NuGet.Config",
