@@ -9,5 +9,15 @@ namespace TuristickaAgencija.Models
         public int id;
         [Required]
         public int price;
+
+        public Payment()
+        {
+        }
+
+        public Payment(int id, int price)
+        {
+            this.id = id;
+            this.price = price;
+        }
     }
 }

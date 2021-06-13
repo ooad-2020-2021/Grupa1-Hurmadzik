@@ -20,5 +20,18 @@ namespace TuristickaAgencija.Models
         public int daysRequired;
 
         public string header;
+
+        public Activity()
+        {
+        }
+
+        public Activity(int id, City grad, string description, int daysRequired, string header)
+        {
+            this.id = id;
+            this.grad = grad;
+            this.description = description;
+            this.daysRequired = daysRequired;
+            this.header = header;
+        }
     }
 }

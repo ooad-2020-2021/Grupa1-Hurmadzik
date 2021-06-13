@@ -15,5 +15,16 @@ namespace TuristickaAgencija.Models
         public Rating rating;
         [Required]
         public Assignment assignment;
+
+        public Guide()
+        {
+        }
+
+        public Guide(int id, Rating rating, Assignment assignment)
+        {
+            this.id = id;
+            this.rating = rating;
+            this.assignment = assignment;
+        }
     }
 }

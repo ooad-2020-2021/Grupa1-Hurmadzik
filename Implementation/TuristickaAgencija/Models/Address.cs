@@ -15,5 +15,17 @@ namespace TuristickaAgencija.Models
         public string city;
         [Required]
         public string streetName;
+
+        public Address()
+        {
+        }
+
+        public Address(int id, string city, string streetName)
+        {
+            this.id = id;
+            this.city = city;
+            this.streetName = streetName;
+        }
     }
+
 }

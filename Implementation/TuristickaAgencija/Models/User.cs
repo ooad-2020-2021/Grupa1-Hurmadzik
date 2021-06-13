@@ -22,5 +22,17 @@ namespace TuristickaAgencija.Models
         [Required]
         public Address address;
 
+        public User()
+        {
+        }
+
+        public User(int id, string firstName, string lastName, string email, Address address)
+        {
+            this.id = id;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+            this.address = address;
+        }
     }
 }

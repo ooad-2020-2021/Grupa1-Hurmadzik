@@ -13,5 +13,15 @@ namespace TuristickaAgencija.Models
         public int id;
         [Required]
         public string name;
+
+        public City()
+        {
+        }
+
+        public City(int id, string name)
+        {
+            this.id = id;
+            this.name = name;
+        }
     }
 }

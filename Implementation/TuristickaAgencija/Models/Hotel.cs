@@ -16,5 +16,15 @@ namespace TuristickaAgencija.Models
         [Required]
         public Rating rating;
 
+        public Hotel()
+        {
+        }
+
+        public Hotel(int id, Address address, Rating rating)
+        {
+            this.id = id;
+            this.address = address;
+            this.rating = rating;
+        }
     }
 }

@@ -26,6 +26,20 @@ namespace TuristickaAgencija.Models
         [Required]
         public List<Activity> activities;
 
+        public Arrangement()
+        {
+        }
 
+        public Arrangement(int id, DateTime dateOfArrival, DateTime dateOfDeparture, int passengerCount, double price, Guide guide, Hotel hotel, List<Activity> activities)
+        {
+            this.id = id;
+            this.dateOfArrival = dateOfArrival;
+            this.dateOfDeparture = dateOfDeparture;
+            this.passengerCount = passengerCount;
+            this.price = price;
+            this.guide = guide;
+            this.hotel = hotel;
+            this.activities = activities;
+        }
     }
 }

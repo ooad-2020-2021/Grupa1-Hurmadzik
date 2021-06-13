@@ -16,5 +16,15 @@ namespace TuristickaAgencija.Models
         [Required]
         public Payment payment;
 
+        public Client()
+        {
+        }
+
+        public Client(int id, Reservation reservation, Payment payment)
+        {
+            this.id = id;
+            this.reservation = reservation;
+            this.payment = payment;
+        }
     }
 }

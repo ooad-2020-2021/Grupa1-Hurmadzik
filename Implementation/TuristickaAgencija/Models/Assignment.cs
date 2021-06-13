@@ -15,5 +15,16 @@ namespace TuristickaAgencija.Models
         public DateTime startingDate;
         [Required]
         public DateTime endingDate;
+
+        public Assignment()
+        {
+        }
+
+        public Assignment(int id, DateTime startingDate, DateTime endingDate)
+        {
+            this.id = id;
+            this.startingDate = startingDate;
+            this.endingDate = endingDate;
+        }
     }
 }
