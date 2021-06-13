@@ -7,5 +7,6 @@ namespace TuristickaAgencija.Models
 {
     public class Address
     {
+        //nesto provjeravam
     }
 }

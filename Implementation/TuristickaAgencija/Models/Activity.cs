@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace TuristickaAgencija.Models
 {
+    //nista
     public class Activity
     {
     }
