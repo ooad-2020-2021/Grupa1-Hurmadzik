@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace TuristickaAgencija.Models
 {
-    public class City
+    public class Client
     {
         [Key]
         [Required]
         public int id;
         [Required]
-        public string name;
+        public Reservation reservation;
+        [Required]
+        public Payment payment;
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,6 +8,12 @@ namespace TuristickaAgencija.Models
 {
     public class Address
     {
-        //nesto provjeravam
+        [Key]
+        [Required] 
+        public int id;
+        [Required]
+        public string city;
+        [Required]
+        public string streetName;
     }
 }
