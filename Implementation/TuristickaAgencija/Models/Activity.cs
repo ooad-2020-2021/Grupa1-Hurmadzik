@@ -11,13 +11,13 @@ namespace TuristickaAgencija.Models
     {
         [Key] 
         [Required]
-        public int id;
+        public int id { get; set; }
 
         [Required]
-        public City grad;
+        public City grad { get; set; }
         public string description;
         [Required]
-        public int daysRequired;
+        public int daysRequired { get; set; }
 
         public string header;
 

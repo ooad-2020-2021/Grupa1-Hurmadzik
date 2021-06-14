@@ -6,7 +6,7 @@ namespace TuristickaAgencija.Models
     {
         [Key]
         [Required]
-        public int id;
+        public int id { get; set; }
         [Required]
         public int price;
 
